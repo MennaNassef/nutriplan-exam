@@ -794,7 +794,7 @@ async function analyzeRecipe(Name, ingredients) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'x-api-key': 'eLK1pgRvFxwlnJvcG5Eip948ywkgtB6K8WZJfgvb'
+        'x-api-key': ''
       },
       body: JSON.stringify({
         title: `${Name}`,
@@ -1103,8 +1103,6 @@ document.getElementById("foodLog").addEventListener('click',()=>{
 
 document.getElementById('products-grid').addEventListener('click', async(e) => {
 
-// let analyze = await analyzeRecipe(data.results[index].name, ingredientsArray)
-    // console.log(analyze);
     console.log(e.target);
     const card = e.target.closest('.product-card');
   if (!card) return;
