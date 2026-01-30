@@ -4,11 +4,6 @@
  * This is the main entry point for the application.
  * Import your modules and initialize the app here.
  */
-
-// meals
-// https://nutriplan-api.vercel.app/api/meals/search?q=chicken&page=1&limit=25
-// search
-// https://nutriplan-api.vercel.app/api/products/search?q=&page=1&limit=24
 let protein=50
 let carbs=250
 let fat=65
